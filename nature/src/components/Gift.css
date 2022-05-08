@@ -1,0 +1,95 @@
+.container{
+    display: flex;
+   gap: 10px; 
+   width: 100%;
+}
+.filter_div{
+    /* border:1px solid red; */
+    height: 600px;
+    width: 17%;
+    margin-left: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.Gift_div{
+ 
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 67%;
+    margin-right: 100ppx;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px;
+    margin-left: 10px;
+
+}
+.gift{
+    height: 350px;
+    width: 200px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+  .gift:hover {
+    box-shadow: 10px 10px 5px #ccc;
+  background: linear-gradient(to bottom, #FFFFFF, #FFFFFF);
+}
+.title{
+font-family: Raleway, sans-serif;
+font-size: 14px;
+line-height: 25px;
+color: #b71761;
+margin-bottom: 10px;
+text-align: center;
+
+}
+.mrp{
+    border: 1px solid grey;
+    
+    border-radius: 5px;
+    padding: 3px;
+    font-family: CeraPRO-Light;
+    font-size: 13px;
+    color: #000000;
+}
+.filter_div > div:nth-child(1) {
+  
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+   
+    
+}
+.clear{
+    color: #deecd5;
+    line-height: 4em;
+    font-size: 10px;
+}
+/* p{
+    font-family: CeraPRO-Light, CeraPRO-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 10px;
+} */
+h4{
+    color: darkgray ;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.filter_div > div:nth-child(3) > p:hover{
+      background-color: rgb(0, 128, 109);
+      
+}
+span{
+    font-size: 14px;
+}
+span:hover {
+    color: #b7d7ba;
+}
+.filter_div > div:nth-child(6) {
+    background-color: #e1e2d2;
+}
+input{
+    margin-bottom: 8px;
+}
