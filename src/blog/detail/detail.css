@@ -1,0 +1,74 @@
+.detail-flex{
+    display: flex;
+   
+    
+}
+.detail-img{
+    width: 330.76px;
+    height: 220.61px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.detail-grid-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 55%;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.detail-p-div{
+    width: 330.76px;
+    margin-left: 25px;
+    color: grey;
+    font-family: cerapro-regular-webfont !important;
+    
+}
+
+.detail-style-div{
+    border-radius: 10px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.detail-style-div:hover{
+    z-index: 1;
+    transform: scale(1.05);
+    transition: all 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.detail-side-txt-div{
+    margin-left: 50px;
+}
+
+.Category{
+    margin-left: 390px;
+    font-size: 30px;
+    color: rgb(82, 82, 82); 
+}
+
+@media only screen and (max-width:667px) and (min-width:375px){
+    .detail-flex{
+        display: block;
+        
+         
+    }
+    .detail-grid-div{
+        display: block;
+        
+    }
+    .detail-side-txt-div{
+       margin-left: 190px;
+    }
+    
+    .Category{
+        margin-left: 160px;
+    }
+    .detail-p-div{
+        margin-left: 10px;
+    }
+    .detail-style-div{
+        margin-top: 20px;
+    }
+}

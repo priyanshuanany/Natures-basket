@@ -1,0 +1,16 @@
+.two-flex{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
+}
+
+.trend-head{
+    margin-left: 150px;
+    font-size: 30px;
+}
+@media only screen and (max-width:667px) and (min-width:375px){
+    .two-flex{
+        display: block;
+         width: 375px;
+    }
+}
