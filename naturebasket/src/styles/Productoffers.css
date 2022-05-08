@@ -1,0 +1,37 @@
+.product-div{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    gap: 6px;
+}
+.product-div div {
+    display: block;
+    margin: 5px;
+}
+
+#btn{
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    justify-content: space-between;
+    place-content: center;
+    margin: 0px;
+}
+#btn div p {
+    padding-top: 0px;
+    font-size: 14px;
+}
+#btn div{
+    display: block;
+    margin: 4px;
+    border-radius: 4px;
+}
+#btn div button {
+    font-size: larger;
+    margin-top: 3px;
+    width: 80px;
+    border-radius: 3px;
+    border: 0px;
+    color: white;
+    outline: none;
+    background-color: rgb(72, 175, 72);
+    height: 30px;
+}
