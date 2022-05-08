@@ -1,0 +1,23 @@
+.popular-img-div{
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+
+}
+
+.popular-flex-div{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-bottom: 40px;
+    width: 300px;
+    margin-top: 40px;
+}
+
+.popular-p-div{
+    margin-left: 20px;
+    color: grey;
+}
+.POPULARARTICLES{
+  color: grey;
+  font-size: 23px;
+}
